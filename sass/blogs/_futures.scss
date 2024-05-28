@@ -1,0 +1,151 @@
+.futures{
+    width: 100%;
+    margin-bottom: -100px;
+   
+    .futures__wrapper{
+        width: 100%;
+        padding: 50px 20px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: rgb(220, 216, 216);
+        position: relative;
+        bottom: 60px;
+
+        .futures__content{
+            width: 35%;
+            height:auto;
+            .futures__content__title{
+                font-family: Rubik;
+                font-size: 35px;
+                font-weight: 500;
+                line-height: 45px;
+                color: #0B132A;
+            }
+            .futures__content__text{
+                font-family: Rubik;
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 30px;
+                color: #4F5665;
+                margin-top: 20px;
+
+            }
+        }
+        .futures__btn{
+            width: 270px;
+            height: 116px;
+            display: flex;
+            align-items: center;
+            .futures__btn__item{
+                width: 250px;
+                height: 60px;
+                border-radius: 10px;
+                color: white;
+                background:#F53838;
+                border: none;
+            }
+        }
+    }
+}
+@media (max-width:773px){
+    .futures{
+        width: 100%;
+        .futures__wrapper{
+            width: 100%;
+            padding: 50px 20px;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            
+            .futures__content{
+                width: 35%;
+                height:auto;
+                .futures__content__title{
+                    font-family: Rubik;
+                    font-size: 25px;
+                    font-weight: 300;
+                    line-height: 35px;
+                    color: #0B132A;
+                }
+                .futures__content__text{
+                    font-family: Rubik;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 30px;
+                    color: #4F5665;
+                    margin-top: 20px;
+                    
+                }
+            }
+            .futures__btn{
+                width: 270px;
+                height: 116px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                .futures__btn__item{
+                    width: 150px;
+                    height: 40px;
+                    border-radius: 10px;
+                    color: white;
+                    background:#F53838;
+                    border: none;
+                }
+            }
+        }
+    }
+}
+        @media (max-width:600px){
+            .futures{
+                width: 100%;
+                .futures__wrapper{
+                    width: 100%;
+                    padding: 50px 20px;
+                    margin-top: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    
+            
+                    .futures__content{
+                        width: 35%;
+                        height:auto;
+                        text-align: center;
+                        .futures__content__title{
+                            font-family: Rubik;
+                            font-size: 17px;
+                            font-weight: 200;
+                            line-height: 25px;
+                            color: #0B132A;
+                        }
+                        .futures__content__text{
+                            font-family: Rubik;
+                            font-size: 13px;
+                            font-weight: 400;
+                            line-height: 20px;
+                            color: #4F5665;
+                            margin-top: 10px;
+            
+                        }
+                    }
+                    .futures__btn{
+                        width: 270px;
+                        height: 116px;
+                        display: flex;
+                        .futures__btn__item{
+                            width: 150px;
+                            height: 40px;
+                            border-radius: 10px;
+                            color: white;
+                            background:#F53838;
+                            border: none;
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+        }

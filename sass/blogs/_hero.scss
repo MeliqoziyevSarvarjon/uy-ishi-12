@@ -1,0 +1,135 @@
+.main{
+    width: 100%;
+}
+.hero{
+    width: 100%;
+    height: 450px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    &__content{
+        width: 40%;
+        height: 382px;
+    }
+    &__img{
+        width: 50%;
+        height: 382px;
+    }
+    &__content__title{
+        font-family: Rubik;
+        font-size: 50px;
+          font-weight: 500;
+         line-height: 70px;
+         color: 
+         #0B132A;
+    }
+    &__content__text{
+        font-family: Rubik;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 30px;
+        color:#4F5665;
+        margin-top: 20px;
+    }
+    &__btn{
+        width: 230px;
+        height: 60px;
+        background: #F53838;
+        color: white;
+        border: none;
+        border-radius: 20px;
+        margin-top: 30px;
+        &:hover{
+            background: #6373de;
+        }
+    }
+    &__img__item{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width:657px){
+    .hero{
+        display: flex;
+        flex-direction: column;
+        gap:10;
+        justify-content: center;
+        &__content{
+            width:50%;
+            height:auto;
+           
+        }
+        &__content__title{
+            font-size: 30px;
+            line-height: 40px;
+            font-weight: 200;
+        }
+        &__content__text{
+            font-size: 14px;
+            margin-top: 2px;
+            line-height: 20px;
+        }
+        &__btn{
+            width: 160px;
+            height: 30px;
+            margin-top: 15px;
+
+        }
+        &__img{
+            width: 300px;
+            height: 200px;
+        }
+        
+       
+    }
+
+}
+.hero__information{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.hero__information__card{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    gap: 36px;
+    justify-content: center;
+    align-items: center;
+}
+.box__title{
+    width: 53px;
+    height: 65px;
+}
+.title__box{
+    font-family: Rubik;
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+}
+.user__title{
+    font-family: Rubik;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+text-align: left;
+}
+@media (max-width:658px){
+    .hero__information{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .title__box{
+        font-size: 20px;
+    }
+    .user__title{
+        font-size: 16px;
+    }
+    
+}
